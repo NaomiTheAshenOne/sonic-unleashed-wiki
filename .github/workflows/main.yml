@@ -23,11 +23,11 @@ jobs:
           extended: true
 
       - name: Run Hugo
-        working-directory: exampleSite
         run: hugo --themesDir ../..
 
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./public
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_branch: compiled
+            cname: unleashed-wiki.naomitheashenone.moe
