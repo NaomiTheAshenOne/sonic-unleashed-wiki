@@ -9,7 +9,6 @@ jobs:
       matrix:
         hugo-version:
           - 'latest'
-          - '0.134.2'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,8 +24,11 @@ jobs:
       - name: Run Hugo
         run: hugo --themesDir ./themes
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./public
+      - name: Push
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: compiled # The branch name where you want to push the assets
+          FOLDER: public # The directory where your assets are generated
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+          MESSAGE: "Built" # The commit message
