@@ -31,4 +31,4 @@ jobs:
           BRANCH: compiled # The branch name where you want to push the assets
           FOLDER: public # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Built" # The commit message
+          MESSAGE: "compiled" # The commit message
