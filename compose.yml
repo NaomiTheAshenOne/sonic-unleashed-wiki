@@ -1,0 +1,9 @@
+services:
+  server:
+    image: floryn90/hugo:ext
+    user: "${UID}:${GID}"
+    command: server
+    volumes:
+      - "./:/src"
+    ports:
+      - "1313:1313"
