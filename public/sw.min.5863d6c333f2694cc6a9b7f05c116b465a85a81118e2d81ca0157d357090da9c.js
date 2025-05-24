@@ -1,1 +1,0 @@
-navigator.serviceWorker&&navigator.serviceWorker.register("/sonic-unleashed-wiki/sw.js",{scope:"/sonic-unleashed-wiki/"})
