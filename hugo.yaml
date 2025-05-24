@@ -1,7 +1,7 @@
 # hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
 baseURL: https://unleashed-wiki.naomitheashenone.moe
-title: Unleashed Wiki
+title: Sonic Unleashed Speedrunning Wiki
 theme: hugo-book
 
 # Book configuration
@@ -73,7 +73,7 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath: edit/main/exampleSite
+  BookEditPath: edit/main/
 
   # Configure the date format used on the pages
   # - In git information

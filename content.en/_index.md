@@ -3,39 +3,22 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# The "unofficial" unofficial SU Speedrunning Wiki
 
-{{% columns %}}
-## Astris ipse furtiva
+## What is this place for?
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+This wiki is intended to document the technical side of Sonic Unleashed (HD). While the main speedrunning glitches are well documented at this point, there is still much that is not fully documented.
 
-<--->
+While i've named this place the "speedrunning" wiki I am aiming to document all technical knowledge of the game, even if it doesn't seem to have a inherit benefit to speedrunning.
 
-## Suis quot vota
+## How do I contribute?
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{% /columns %}}
+If you want to edit the content on a page you can scroll to the bottom, click "Edit this page" and once you've made your changes make a Pull Request. I am using github to manage the edits to the wiki as it allows for changes to be peer reviewed before getting merged helping reduce missinfomation and greifing from occuring. If you don't want to use github pull requests feel free to leave a git issue with your changes or DM them to me on discord @naomi.the.ashen.one
 
+This wiki is built with [HUGO](https://gohugo.io/) and uses the [Hugo-book](https://github.com/alex-shpak/hugo-book) theme. This means that instead of writing in HTML, our content is writen with markdown which is an easy to pickup text format. I have setup github actions on the wikis repo that will automaticaly recompile and publish the site after any change is made to the repository.
 
-## Tempora nisi nunc
+## Credits
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+[HUGO](https://gohugo.io/): The framework the wiki is using.
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+[Hugo-book](https://github.com/alex-shpak/hugo-book): The HUGO theme the wiki uses.
